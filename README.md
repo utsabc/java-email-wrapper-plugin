@@ -61,18 +61,5 @@ This specific configuration ensure access from both maven central repository als
 ```
 ## API Usage
 
-```
-EmailFactory factory = new EmailFactory(new EmailConfiguration.ConfigBuilder()
-			.setUser("your.email@email.com")
-			.setPassword("YourPassword")
-			.setConnection("IMAP")  //Can be set to IMAP/POP3
-			.setHost("imap.gmail.com")  //Specific host based on imap/pop3 and provider
-			.setPort("993")  //specific to IMAP/POP3 (110,993,995)
-			.build(), null);  //(NULL by default will set it to READ MODE) see javax.mail.event.ConnectionEvent
-	factory.setStartIndex(0); //Sets the starting index
-	factory.setEndIndex(100); //Sets the ending index
-Collection<EmailPOJO> emails =  factory.read("Inbox");
-
-```
-
+![API](/Isage.PNG?raw=true "Title")
 
