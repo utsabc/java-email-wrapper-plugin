@@ -61,5 +61,6 @@ This specific configuration ensure access from both maven central repository als
 ```
 ## API Usage
 
+Simple Code that prints all the emails to console. EmailPOJO is made generic to support further usecases.
 ![API](/Isage.PNG?raw=true "Title")
 
